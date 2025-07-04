@@ -1,20 +1,14 @@
- <div class="item">
-  <img src="https://via.placeholder.com/180x150" alt="Gold Ring">
-  <h3>Gold Ring</h3>
-  <p class="price">$120</p>
-  <button onclick="addToCart(0)">Add to Cart</button>
-</div>
+var productNames = ["Gold Ring", "Silver Necklace", "Diamond Earrings"];
+var productPrices = [120, 85, 150];
 
-<div class="item">
-  <img src="https://via.placeholder.com/180x150" alt="Silver Necklace">
-  <h3>Silver Necklace</h3>
-  <p class="price">$85</p>
-  <button onclick="addToCart(1)">Add to Cart</button>
-</div>
+// Step 2: Function runs when a button is clicked
+function addToCart(index) {
+  var name = productNames[index];
+  var price = productPrices[index];
 
-<div class="item">
-  <img src="https://via.placeholder.com/180x150" alt="Diamond Earrings">
-  <h3>Diamond Earrings</h3>
-  <p class="price">$150</p>
-  <button onclick="addToCart(2)">Add to Cart</button>
-</div>
+  // Step 3: Show message using alert
+  alert("You added: " + name + " ($" + price + ")");
+
+  // Step 4: Debug message in console
+  console.log("DEBUG: " + name + " added to cart. Price: $" + price);
+}
