@@ -1,77 +1,57 @@
-h1 {
-  font-family: "roboto flex", buisness;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  font-size: 90px;
-  color: #5b738c;
-  display: block;
-  margin: auto;
-  width: 400px;
-  height: 200px;
-  background-color: #f1f1f1;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  background-color: grey;
-  padding: 10px;
-  font-family: "roboto flex", buisness;
-  color: #5b738c;
-}
-
-.grid-container
-div {
-  background-image: linear-gradient(to right, #A3C2DA, #f1f1f1);
-  color: #5b738c;
-  padding: 10px;
-  font-size: 30px;
-  text-align: left;
-}
-
-ul {
-  list-style-type: none;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f8;
+  color: #333;
   margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #f1f1f1;
-  z-index: 1000;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #5b738c;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: "roboto flex", buisness;
-  font-size: 30px;
-}
-
-li a:hover,
-.active {
-  background-color: white;
-}
-
-a:link, a:visited {
-  background-color: #f1f1f1;
-  color: #5b738c;
-  padding: 14px 25px;
+/* Header */
+.header {
+  background-color: #f8d0d8;
   text-align: center;
+  padding: 20px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
   text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+}
+
+/* Banner */
+.banner {
+  background-color: #ffe6eb;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Products */
+.products {
+  text-align: center;
+  padding: 20px;
+}
+
+.item {
   display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
 }
 
-div {
-  box-shadow: 10px 10px rgb(107, 105, 105);
+.item img {
+  width: 150px;
+  height: 150px;
 }
 
-
+/* Footer */
+.footer {
+  background-color: #f8d0d8;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
