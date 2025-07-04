@@ -4,12 +4,26 @@ h1 {
   font-style: normal;
   text-align: center;
   font-size: 90px;
-  color: #5b738c;
+  color: #2f2a26;
   display: block;
   margin: auto;
   width: 400px;
   height: 200px;
   background-color: #f1f1f1;
+}
+
+p {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 35px;
+  color: #2f2a26;
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 200px;
+  background-color:#afaba2 ;
 }
 
 body {
@@ -29,7 +43,7 @@ body {
 
 .grid-container
 div {
-  background-image: linear-gradient(to right, #a08241, #c6cec4);
+  background-image: linear-gradient(to right, #afaba2, #c3c3c1);
   color: #5b738c;
   padding: 10px;
   font-size: 30px;
