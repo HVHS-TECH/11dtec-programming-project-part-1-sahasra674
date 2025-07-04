@@ -12,3 +12,13 @@ function addToCart(index) {
   // Step 4: Debug message in console
   console.log("DEBUG: " + name + " added to cart. Price: $" + price);
 }
+function addToCart(index) {
+  var productNames = ["Gold Ring", "Silver Necklace", "Diamond Earrings"];
+  var productPrices = [120, 85, 150];
+
+  var name = productNames[index];
+  var price = productPrices[index];
+
+  // ✅ This is the alert that shows when button is clicked:
+  alert("🛒 You added: " + name + "\nPrice: $" + price);
+}
