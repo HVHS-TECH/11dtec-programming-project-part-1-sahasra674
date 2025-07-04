@@ -51,3 +51,21 @@
 
 </body>
 </html>
+
+<script>
+  // Step 1: Create arrays to store product names and prices
+  var productNames = ["Gold Ring", "Silver Necklace", "Diamond Earrings"];
+  var productPrices = [120, 85, 150];
+
+  // Step 2: Create a function that runs when a button is clicked
+  function addToCart(index) {
+    var name = productNames[index];
+    var price = productPrices[index];
+    
+    // Show a message
+    alert("You added: " + name + " - $" + price);
+
+    // Debug message in the console (you can open browser dev tools to see this)
+    console.log("DEBUG: " + name + " added to cart for $" + price);
+  }
+</script>
